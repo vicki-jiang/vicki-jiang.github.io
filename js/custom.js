@@ -55,7 +55,7 @@ if (index) {
     data() {
       return {
         home: {
-          homeText: '有创造力的网站&移动端设计,专注于极致的用户体验与品牌设计'
+          homeText: '不懂产品不会视觉的交互不是好设计专注金融产品用户体验'
         },
         contact: {
           contactShow: true,
@@ -63,29 +63,29 @@ if (index) {
           contactLink: 'contact.html'
         },
         projects: [{
-          projectName: '案例1',
+          projectName: '系统授权规范',
           projectLink: 'single-project.html',
-          projectImage: 'images/portfolio-img1.jpg'
+          projectImage: 'images/project-1.jpg'
         }, {
-          projectName: '案例2',
+          projectName: '指纹支付流程',
           projectLink: 'single-project.html',
-          projectImage: 'images/portfolio-img2.jpg'
+          projectImage: 'images/project-2.jpg'
         }, {
-          projectName: '案例3',
+          projectName: 'App键盘规范',
           projectLink: 'single-project.html',
-          projectImage: 'images/portfolio-img3.jpg'
+          projectImage: 'images/project-3.jpg'
         }, {
-          projectName: '案例4',
+          projectName: '模块化配置方案',
           projectLink: 'single-project.html',
-          projectImage: 'images/portfolio-img4.jpg'
+          projectImage: 'images/project-4.jpg'
         }, {
-          projectName: '案例5',
+          projectName: '消息push流程',
           projectLink: 'single-project.html',
-          projectImage: 'images/portfolio-img5.jpg'
+          projectImage: 'images/project-5.jpg'
         }, {
-          projectName: '案例6',
+          projectName: '支付流程',
           projectLink: 'single-project.html',
-          projectImage: 'images/portfolio-img6.jpg'
+          projectImage: 'images/project-6.jpg'
         }]
       }
     }
