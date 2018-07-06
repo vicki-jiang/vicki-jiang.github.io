@@ -55,7 +55,8 @@ if (index) {
     data() {
       return {
         home: {
-          homeText: '不懂产品不会视觉的交互不是好设计专注金融产品用户体验'
+          homeText: '不懂产品不会视觉的交互不是好设计专注金融产品用户体验.',
+          homeText2: '好的设计，帮助实现产品目标，配合产品规划，提高产品价值'
         },
         contact: {
           contactShow: true,
@@ -73,19 +74,19 @@ if (index) {
         }, {
           projectName: 'App键盘规范',
           projectLink: 'single-project.html',
-          projectImage: 'images/project-3.jpg'
+          projectImage: 'images/project-6.jpg'
         }, {
           projectName: '模块化配置方案',
           projectLink: 'single-project.html',
-          projectImage: 'images/project-4.jpg'
+          projectImage: 'images/project-5.jpg'
         }, {
           projectName: '消息push流程',
           projectLink: 'single-project.html',
-          projectImage: 'images/project-5.jpg'
+          projectImage: 'images/project-4.jpg'
         }, {
           projectName: '支付流程',
           projectLink: 'single-project.html',
-          projectImage: 'images/project-6.jpg'
+          projectImage: 'images/project-3.jpg'
         }]
       }
     }
