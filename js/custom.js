@@ -65,7 +65,7 @@ if (index) {
         },
         projects: [{
           projectName: '系统授权规范',
-          projectLink: 'single-project.html',
+          projectLink: 'system-auth.html',
           projectImage: 'images/project-1.jpg'
         }, {
           projectName: '指纹支付流程',
@@ -88,6 +88,57 @@ if (index) {
           projectLink: 'single-project.html',
           projectImage: 'images/project-3.jpg'
         }]
+      }
+    }
+  })
+}
+
+
+if (project) {
+  var project = new Vue({
+    el: '#single-project',
+    data() {
+      return {
+        projects: {
+          "system-auth": {
+            title: '系统授权规范',
+            description: '描述',
+            images: [{
+              link: 'images/system-auth/system-auth001.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth002.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth003.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth004.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth005.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth006.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth007.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth008.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth009.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth010.jpeg',
+              size: ''
+            }, {
+              link: 'images/system-auth/system-auth011.jpeg',
+              size: ''
+            }]
+          }
+        }
       }
     }
   })
