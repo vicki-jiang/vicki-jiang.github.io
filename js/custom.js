@@ -35,10 +35,6 @@ var navbar = new Vue({
         {
           navbarName: '关于',
           navbarLink: 'about.html'
-        },
-        {
-          navbarName: '联系',
-          navbarLink: 'contact.html'
         }
       ]
     }
@@ -63,11 +59,6 @@ if (about) {
     el: '#about',
     data() {
       return {
-        about: {
-
-          tel: '17521068776',
-          mail: 'qiheyezi.de@163.com'
-        },
         currentJob: [
           '2016.04 至今',
           '1.负责《万达财富》《万达贷》《快易花》等多个理财、贷款、征信类App及相关数据后台、风 险监控平台等产品的交互设计，输出高质量的页面流程图、功能逻辑图、产品高保真等; ',
