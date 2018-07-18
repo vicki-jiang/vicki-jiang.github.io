@@ -56,53 +56,24 @@
 
     </div>
   </div>
+  <!-- Single Project Section -->
   <div id="project">
-    <!-- Single Project Section -->
     <section id="single-project">
       <div class="container">
         <div class="row">
 
           <div class="col-md-offset-1 col-md-10 col-sm-12">
-            <h1>{{projects['system-auth'].title}}</h1>
-            <p>{{projects['system-auth'].description}}
+            <h1>{{project.title}}</h1>
+            <p>{{project.description}}
             </p>
-            <a href="#">
-              <i class="fa fa-long-arrow-right"></i> 内容</a>
-
-            <div class="col-md-12 col-sm-12" v-for='image in projects["system-auth"].images'>
+            <div class="col-md-12 col-sm-12" v-for='image in project.images'>
               <img :src="image.link" class="img-responsive" alt="Portfolio">
             </div>
-
             <div style='display:none' class="col-md-6 col-sm-6">
               <img src="images/portfolio-img2.jpg" class="img-responsive" alt="Portfolio">
             </div>
-
             <div class="clearfix"></div>
-
-            <div style='display:none' class="col-md-4 col-sm-4">
-              <h3>Role</h3>
-              <p>Brand Identity</p>
-            </div>
-
-            <div class="col-md-4 col-sm-4">
-              <h3>日期</h3>
-              <p>December, 2015</p>
-            </div>
-
-            <div style='display:none' class="col-md-4 col-sm-4">
-              <h3>Agency</h3>
-              <p>Client Name here</p>
-            </div>
-
-            <div class="col-md-12 col-sm-12 text-center">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-              </p>
-              <strong>James Otto ( Project Manager )..</strong>
-            </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -138,7 +109,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-sm-6">
+        <div style='display:none' class="col-md-6 col-sm-6">
           <ul class="social-icon">
             <li>
               <a href="#" class="fa fa-facebook"></a>
