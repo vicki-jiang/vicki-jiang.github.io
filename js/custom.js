@@ -46,7 +46,7 @@ var footer = new Vue({
   data() {
     return {
       footer: {
-        address: '这里是地址地址地址',
+        address: 'base: 上海&杭州',
         tel: '17521068776',
         mail: 'qiheyezi.de@163.com'
       }
@@ -90,7 +90,7 @@ if (index) {
           homeText2: '好的设计，帮助实现产品目标，配合产品规划，提高产品价值。'
         },
         contact: {
-          contactShow: true,
+          contactShow: false,
           contactText: '嗨，如果有兴趣共事，请戳-->',
           contactLink: 'contact.html'
         },
