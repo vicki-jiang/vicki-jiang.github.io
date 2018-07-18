@@ -63,21 +63,27 @@
 
         <div class="col-md-offset-1 col-md-10 col-sm-12">
           <div class="section-title">
-            <h3>关于我</h3>
-            <span style='font-size:18px;' v-for='text in selfIntro'>{{text}}</span>
+            <h2>关于我</h2>
           </div>
+
+          <div class="col-md-12 col-sm-12">
+            <h3>当前工作</h3>
+            <p v-for='text in currentJob'>{{text}}</p>
+          </div>
+          <hr>
 
           <div class="col-md-8 col-sm-12">
             <img src="images/about-image.jpg" class="img-responsive" alt="About">
           </div>
 
           <div class="col-md-4 col-sm-12">
-            <h1>当前工作</h1>
-            <p v-for='text in currentJob'>{{text}}</p>
+            <h3>自我评价</h3>
+            <p v-for='text in selfIntro'>{{text}}</p>
           </div>
-
           <div class="clearfix"></div>
           <hr>
+
+
           <div class="col-md-12 col-sm-12">
             <h3>教育经历</h3>
             <p v-for='text in eduHistory'>{{text}}</p>

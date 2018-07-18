@@ -95,7 +95,7 @@ if (index) {
     data() {
       return {
         home: {
-          homeText: '不懂产品不会视觉的交互不是好设计，专注金融产品用户体验。',
+          homeText: ['不懂产品不会视觉的交互不是好设计', '专注金融产品用户体验'],
           homeText2: '好的设计，帮助实现产品目标，配合产品规划，提高产品价值。'
         },
         contact: {
@@ -116,7 +116,7 @@ if (index) {
           projectLink: 'project.html?id=keyboard-specification',
           projectImage: 'images/project-6.jpg'
         }, {
-          projectName: '模块化配置方案',
+          projectName: '模块化配置',
           projectLink: 'project.html?id=modular-config',
           projectImage: 'images/project-5.jpg'
         }, {
@@ -240,7 +240,7 @@ if (project && id) {
             }]
           },
           "modular-config": {
-            title: '模块化配置设计',
+            title: '模块化配置',
             description: '根据页面数据分析，为提高个人中心邀请有礼功能转化率，引导用户使用会员特权功能，对现有页面改版的同时特意做了功能入口的模块化设计，为今后产品功能的增删做了有效准备，减少了后续的开发成本，提高团队效能。',
             images: [{
               link: 'images/modular-config/modular-config001.jpg',
